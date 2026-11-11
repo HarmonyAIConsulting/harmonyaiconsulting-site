@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact | Harmony AI</title>
+<meta name="description" content="Tell HALI what's going on with your leads. Free 15-minute assessment for local businesses in Brunswick County, NC and Horry County, SC.">
+<meta property="og:site_name" content="Harmony AI">
+<meta property="og:title" content="Contact | Harmony AI">
+<link rel="canonical" href="https://assessment.harmonyaiconsulting.com/">
+<meta name="theme-color" content="#07060d">
+<link rel="icon" href="/brand/favicon-64.png">
+<link rel="preload" href="/fonts/space-grotesk.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/atkinson-hyperlegible-next.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/brand/hali-hero.webp" as="image" fetchpriority="high">
+<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/forms.css">
+<!-- LOCAL DRAFT. Not published. Replaces the GoHighLevel contact form (a duplicate of the assessment form). Canonical points at assessment on purpose. -->
+</head>
+<body class="form-page">
+<div class="aurora soft" aria-hidden="true"><i></i><i></i><i></i></div>
+<canvas class="net" aria-hidden="true"></canvas>
+<a class="skip" href="#main">Skip to content</a>
+<header class="fp-top">
+  <a class="brand" href="https://harmonyaiconsulting.com/" aria-label="Harmony AI, home">
+    <img src="/brand/harmony-mark.webp" alt="" width="44" height="44">
+    <span class="brand-text"><span class="brand-name">Harmony AI</span><span class="brand-tag">Your Local AI Department</span></span>
+  </a>
+  <a class="call-link" href="tel:+19102945771">(910) 294-5771</a>
+</header>
+
+<main class="fp-wrap" id="main">
+  <aside class="hali-col" aria-label="HALI">
+    <div class="hali-stage">
+      <div class="halo" aria-hidden="true"></div>
+      <img class="hali" src="/brand/hali-hero.webp" alt="HALI, the Harmony AI assistant" width="433" height="577" fetchpriority="high">
+    </div>
+    <div class="hud glass" aria-hidden="true">
+      <div class="hud-row"><p class="status-pill"><i class="dot"></i><span class="hud-state">Ready</span></p><span class="eq"><i></i><i></i><i></i><i></i></span></div>
+      <p class="say in">Hi, I'm HALI. Tell me what's going on with your leads.</p>
+      <div class="hud-sub"><span>HALI is with you</span><span class="hud-count">0 of 6 details</span></div>
+      <div class="prog"><i></i></div>
+    </div>
+  </aside>
+  <div class="fp-form-col">
+    <p class="status-pill"><i class="dot"></i>HALI active <span aria-hidden="true">&middot; neural interface online</span></p>
+    <h1>Tell HALI what's <span class="grad">going on.</span></h1>
+    <p class="fp-lede">15 minutes. Free. No pressure. Just your numbers.</p>
+    <form class="fp-card glass" data-w3f data-thanks="/thank-you/" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="36f72423-3c07-497b-bf8d-ca6165550dc8">
+      <input type="hidden" name="subject" value="New contact request">
+      <input type="hidden" name="from_name" value="Harmony AI website">
+      <input type="hidden" name="source_page" value="contact">
+      <div class="fp-hp" aria-hidden="true"><label>Leave this box empty <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off"></label></div>
+      <div class="fp-error" role="alert" tabindex="-1" hidden>That didn't send. Please try again, or call me at <a href="tel:+19102945771">(910) 294-5771</a> or email <a href="mailto:harmony@harmonyaiconsulting.com">harmony@harmonyaiconsulting.com</a>.</div>
+      <fieldset>
+        <legend><span class="step">Step 1 of 2</span>Let's get the basics.</legend>
+        <p class="hali-say">Who am I talking to?</p>
+        <div class="fp-grid">
+          <div class="fp-field" data-hali="Hi, I'm HALI. What should I call you?"><label for="first_name">First name</label><input id="first_name" name="first_name" type="text" autocomplete="given-name" required></div>
+          <div class="fp-field" data-hali="What's your business called?"><label for="organization">Business name</label><input id="organization" name="organization" type="text" autocomplete="organization" required></div>
+          <div class="fp-field" data-hali="A phone number is the fastest way to reach you."><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="(555) 555-5555" required></div>
+          <div class="fp-field" data-hali="Where can Harmony reach you? Email works great."><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@yourbusiness.com" required></div>
+          <div class="fp-field" data-hali="What kind of work do you do?"><label for="niche">Your industry</label><select id="niche" name="niche" required><option value="">Select your industry</option><option>HVAC</option><option>Plumbing</option><option>Roofing</option><option>Pool</option><option>Contractor</option><option>Landscaping</option><option>Other</option></select></div>
+          <div class="fp-field" data-hali="Curious how you found me. Totally optional."><label for="source">How did you hear about me? <span class="opt">(optional)</span></label><select id="source" name="source"><option value="">Select one</option><option>Google</option><option>Facebook</option><option>Instagram</option><option>LinkedIn</option><option>Referral</option><option>In person</option><option>Other</option></select></div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend><span class="step">Step 2 of 2</span>What's going on?</legend>
+        <p class="hali-say">Plain words are fine. I'll pass it on.</p>
+        <div class="fp-field" data-hali="Missed calls? Slow follow-up? Tell me what's happening."><label for="message">Tell me what's going on with your leads</label><textarea id="message" name="message" required></textarea></div>
+      </fieldset>
+      <div class="fp-actions" data-hali="Ready when you are. I'll pass this straight to Harmony.">
+        <button class="btn-gold big" type="submit">Let HALI run my assessment &rarr;</button>
+        <p class="fp-privacy">I'll use this only to get back to you about your assessment. See my <a href="https://harmonyaiconsulting.com/privacy-policy">Privacy Policy</a>.</p>
+      </div>
+    </form>
+  </div>
+</main>
+
+<footer class="foot">
+  <p class="foot-brand"><img src="/brand/harmony-mark.webp" alt="" width="44" height="44" loading="lazy"><span>Harmony AI</span></p>
+  <p class="nap"><b>Harmony AI</b> &middot; <a href="tel:+19102945771">(910) 294-5771</a> &middot; <a href="mailto:harmony@harmonyaiconsulting.com">harmony@harmonyaiconsulting.com</a> &middot; Serving Brunswick County, NC and Horry County, SC</p>
+  <p class="legal"><a href="https://harmonyaiconsulting.com/privacy-policy">Privacy Policy</a> <a href="https://harmonyaiconsulting.com/terms-of-service">Terms of Service</a> <a href="https://harmonyaiconsulting.com/">Back to the website</a></p>
+  <p>&copy; 2026 Harmony AI. All rights reserved.</p>
+</footer>
+<script src="/hali-ui.js" defer></script>
+<script src="/form.js" defer></script>
+</body>
+</html>

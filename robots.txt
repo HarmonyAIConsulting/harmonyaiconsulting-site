@@ -1,0 +1,22 @@
+# Search and answer crawlers: allowed
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: OAI-SearchBot
+User-agent: PerplexityBot
+User-agent: ChatGPT-User
+Allow: /
+
+# AI training crawlers: blocked
+User-agent: GPTBot
+User-agent: Google-Extended
+User-agent: CCBot
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+User-agent: Bytespider
+Disallow: /
+
+# Everyone else
+User-agent: *
+Allow: /
+
+Sitemap: https://harmonyaiconsulting.com/sitemap.xml

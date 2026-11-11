@@ -1,0 +1,5 @@
+review/*
+!review/upgrade/
+!review/aeo/
+!review/structured-data/
+img/src/
