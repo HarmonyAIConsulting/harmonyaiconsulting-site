@@ -149,3 +149,8 @@ body.form-page { position: relative; min-height: 100vh; display: flex; flex-dire
 /* Small help text inside form fields (onboarding, 2026-11-09) */
 .fp-note { font-size: 1rem; line-height: 1.5; opacity: .9; margin: 8px 0 0; }
 .fp-note a, .steps a { color: var(--teal); text-decoration: underline; text-underline-offset: 3px; }
+/* SMS consent (A2P), unchecked and optional */
+.fp-consent { margin-top: 14px; }
+.fp-consent .fp-check { display: flex; gap: 12px; align-items: flex-start; font-weight: 400; font-size: 1rem; line-height: 1.45; cursor: pointer; transform: none; }
+.fp-consent .fp-check input { width: 24px; height: 24px; flex: 0 0 24px; margin-top: 2px; accent-color: #00D4C8; }
+.fp-consent a { color: inherit; text-decoration: underline; }
