@@ -13,7 +13,7 @@
   var MOBILE = (me && me.getAttribute("data-mobile")) || "pill";
   var MB = parseInt((me && me.getAttribute("data-mobile-bottom")) || "20", 10) || 20;
   if (!ENDPOINT) return;
-  var FALLBACK = "Sorry, I couldn't connect. Please call (910) 294-5771 or email harmony@harmonyaiconsulting.com.";
+  var FALLBACK = "Sorry, I couldn't connect. Please use the contact form at harmonyaiconsulting.com/contact or email harmony@harmonyaiconsulting.com.";
   var sid;
   try { sid = sessionStorage.getItem("hali-chat-id"); } catch (e) {}
   if (!sid) {
