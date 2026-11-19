@@ -1,8 +1,9 @@
 /* Harmony AI request forms: sends the form to Web3Forms (which emails harmony@harmonyaiconsulting.com), then goes to the thank-you page.
    If JavaScript is off, the form still posts to Web3Forms normally. The access key is public by design: it can only email this inbox. */
 (function () {
-  var form = document.querySelector("form[data-w3f]");
-  if (!form) return;
+  // every form[data-w3f] on the page (the /guides/ page has one per free guide; other pages have one)
+  Array.prototype.forEach.call(document.querySelectorAll("form[data-w3f]"), setup);
+  function setup(form) {
   var btn = form.querySelector("button[type=submit]");
   var err = form.querySelector(".fp-error");
   var label = btn.textContent;
@@ -33,4 +34,5 @@
       })
       .catch(fail);
   });
+  }
 })();
